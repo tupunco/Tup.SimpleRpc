@@ -33,14 +33,12 @@
     /// </summary>
     /// <typeparam name="T"></typeparam>
     public class RequestBody<TData> : RequestBody
-    //    where TData : new()
     {
         /// <summary>
         /// 
         /// </summary>
         public RequestBody()
         {
-            //    this.Data = new TData();
         }
         /// <summary>
         /// 参数实体
@@ -100,14 +98,12 @@
     /// 响应 附带参数实体
     /// </summary>
     public class ResponseBody<TData> : ResponseBody
-    //        where TData : new()
     {
         /// <summary>
         /// 
         /// </summary>
         public ResponseBody()
         {
-            //    this.Data = new TData();
         }
 
         /// <summary>
